@@ -9,3 +9,17 @@ h2{
 .break-line-bottom{
     margin-bottom: 20px;
 }
+
+p{
+    text-align: justify;
+}
+
+.alin-text-center{
+    text-align: center;
+}
+
+.alin-img-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
