@@ -1,8 +1,15 @@
-h1{
+body{
+    font-family: 'Times New Roman', Times, serif;
     background-color: crimson;
+
 }
 
-h2{
+h1{
+    color: darkred;
+}
+
+h1, h2{
+    font-family: Arial, Helvetica, sans-serif;
     background-color: red;
 }
 
@@ -20,6 +27,14 @@ p{
 
 .alin-img-center{
     display: block;
-    margin-left: auto;
+    margin: auto;
     margin-right: auto;
+}
+
+.center{
+    align-items: center;
+}
+
+.x{
+   width: 80%; 
 }
