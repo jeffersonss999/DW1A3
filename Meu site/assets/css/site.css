@@ -35,6 +35,36 @@ p{
     align-items: center;
 }
 
-.x{
-   width: 80%; 
+
+
+
+/** Reset **/
+
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+/** end Reset **/
+
+
+
+ul{
+    background: greenyellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section{
+    margin-bottom: 150px;
 }
