@@ -1,0 +1,40 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: crimson;
+
+}
+
+h1{
+    color: darkred;
+}
+
+h1, h2{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+}
+
+.break-line-bottom{
+    margin-bottom: 20px;
+}
+
+p{
+    text-align: justify;
+}
+
+.alin-text-center{
+    text-align: center;
+}
+
+.alin-img-center{
+    display: block;
+    margin: auto;
+    margin-right: auto;
+}
+
+.center{
+    align-items: center;
+}
+
+.x{
+   width: 80%; 
+}
