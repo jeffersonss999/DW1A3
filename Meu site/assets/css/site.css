@@ -1,16 +1,13 @@
 body{
     font-family: 'Times New Roman', Times, serif;
-    background-color: crimson;
-
 }
-
-h1{
-    color: darkred;
+.formatacao-texto{
+    width: 720px;
+    font-size: 25px;
 }
 
 h1, h2{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: red;
 }
 
 .break-line-bottom{
@@ -25,18 +22,23 @@ p{
     text-align: center;
 }
 
-.alin-img-center{
+.center{
     display: block;
     margin: auto;
     margin-right: auto;
 }
 
-.center{
-    align-items: center;
+blockquote{
+    background: yellowgreen;
+    border: 10px solid #C2CCCA;
+    padding: 20px;
 }
 
-
-
+.titulo{
+    background: purple;
+    border-bottom: 10px solid black;
+    padding: 25px;
+}
 
 /** Reset **/
 
@@ -56,15 +58,36 @@ ul, ol {
 
 /** end Reset **/
 
+aside{
+    background: #3C1D3D;
+}
 
+nav{
+    padding: 20px;
+}
 
 ul{
-    background: greenyellow;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
+aside a{
+    color: #F2FFFC;
+}
+
 section{
     margin-bottom: 150px;
+    padding: 20px;
+}
+
+footer{
+    
+    background: black;
+    color: #F2FFFC;
+}
+
+.img-link{
+    width: 25px;
+    height: 25px;
 }
