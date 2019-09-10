@@ -6,4 +6,4 @@
 
 [Atividade 2](Meu site/bio.html)
 
-Atividade 3](Meu site/bio.html)
+[Atividade 3](Meu site/bio.html)
